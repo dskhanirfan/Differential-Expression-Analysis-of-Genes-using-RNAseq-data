@@ -1,0 +1,90 @@
+Sample ID	Sample ID Corrected	Matching tumor sample ID	SampleType	SampleDetailed	SampleType2	Sample type 3	Sample type 4	Sample type 5	Gender	Age	Hospital	Mutated gene	Mutation	CRCs	Adenomas	Sample preservation	RNA ng/ul	RIN	Sample location	Note
+ME19N1-III	ME19N1-III	-	Gut	Gut_Cars	LS_gut	LS_gut_Cars	LS_gut_Cars	Null	M	45	Meilahti	MLH1	c.1732-2941_1896+432del	yes	yes	N2	282	6.90	transversum	
+ME21N1-I	ME21N1-I	-	Gut	Gut_Cars	LS_gut	LS_gut_Cars	LS_gut_Cars	Null	M	34	Meilahti	MLH1	c.320T>G	yes	yes	N2	302	6.70	Caecum	cars + Ad samalla tahystyshetkella
+ME25Np1-II	ME25Np1-II	"T, P1"	Gut	Gut_Cars	LS_gut	LS_gut_Cars	LS_gut_gravis	Null	M	51	Meilahti	MLH1	c.1732-2941_1896+432del	yes	yes	N2	76	8.7	Ascendens	cars + Ad samalla tahystyshetkella ascendensissa
+ME46N1-III	ME46N1-III	-	Gut	Gut_Cars	LS_gut	LS_gut_Cars	LS_gut_Cars	Null	F	55	Meilahti	MLH1	c.454-1G>A	yes	yes	N2	77	7.3	transversum	
+ME73N1-I-2	ME73N1-I-2	colon T	Gut	Gut_Cars	LS_gut	LS_gut_Cars	LS_gut_Cars	Null	M	58	Meilahti	MLH1	c.1732-2941_1896+432del	yes	yes	N2	101	7.2	Caecum	caecumissa cars 2015 (ja adenoma 2013)
+ME83N1-III	ME83N1-III	C1	Gut	Gut_Cars	LS_gut	LS_gut_Cars	LS_gut_Cars	Null	F	74	Meilahti	MSH2	c.696_697delTT	yes	yes	N2	359	6.8	transversum	
+ME89colonN-II	ME89colonN-II	colon CA	Gut	Gut_Cars	LS_gut	LS_gut_Cars	LS_gut_Cars	Null	F	52	Meilahti	MLH1	c.1732-2941_1896+432del	yes	yes	N2	1970	7.40	Ascendens	cars + Ad samalla tahystyshetkella
+MMR42_LN_2	MMR42_LN_2	L_2	Gut	Gut_Cars	LS_gut	LS_gut_Cars	LS_gut_Cars	Null	M	46	Meilahti	MLH1	c.678+8G>T	yes	yes	RNAlater	157	9.70	transversum	
+ME21Np1-III	ME21Np1-III	P1	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_gravis	Null	M	34	Meilahti	MLH1	c.320T>G	yes	yes	N2	111	7.70	transversum	cars + Ad samalla tahystyshetkella
+ME23N1-I	ME23N1-I	P1	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutS	M	57	Meilahti	MSH2	c.1667_1671delGACTT	NO	yes	N2	247	8.40	Caecum	
+ME44N1-I	ME44N1-I	-	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutS	F	69	Meilahti	MSH2	c.1807	NO	yes	N2	85	7.20	Caecum	
+ME55N1-I	ME55N1-I	-	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutL	M	38	Meilahti	MLH1	c.1732-2941_1896+432del	NO	yes	N2	317	7.10	Caecum	
+ME56N-I	ME56N-I	kohouma	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutS	M	62	Meilahti	MSH6	c.3306delT	yes	yes	N2	778	7.50	Caecum	
+ME59N1-III	ME59N1-III	-	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutL	M	43	Meilahti	MLH1	c.1732-2941_1896+432del	NO	yes	N2	550	7.70	transversum	sample included in the pilot study
+ME62N1-I	ME62N1-I	-	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutS	M	76	Meilahti	MSH6	c.2735G>A	NO	yes	N2	302	6.70	Caecum	
+ME63N1-III	ME63N1-III	-	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutL	F	62	Meilahti	MLH1	c.1732-2941_1896+432del	NO	yes	N2	88	7.00	transversum	
+ME73N1-I-1	ME73N1-I-1	P1-II	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutL	M	56	Meilahti	MLH1	c.1732-2941_1896+432del	yes	yes	N2	126	7.20	Caecum	caecumissa adenoma 2013 (ja cars 2015)
+ME76N1-III	ME76N1-III	P1	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_gravis	Null	M	59	Meilahti	MLH1	c.1732-2941_1896+432del	NO	yes	N2	164	7.70	transversum	
+ME87N1-III	ME87N1-III	P?	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutL	M	47	Meilahti	MLH1	c.454-1G>A	NO	yes	N2	469	6.70	transversum	
+ME89N1-I	ME89N1-I	P1	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_gravis	Null	F	52	Meilahti	MLH1	c.1732-2941_1896+432del	yes	yes	N2	382	7.30	Caecum	cars + Ad samalla tahystyshetkella
+ME104NP1-II	ME104NP1-II	(P1)	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_gravis	Null	M	75	Meilahti	MLH1	c.1732-2941_1896+432del	yes	yes	N2	334	7.20	Ascendens	
+ME124N1-I	ME124N1-I	-	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutL	M	49	Meilahti	MLH1	c.208-?_453+?del	NO	yes	N2	163	7.40	Caecum	
+MMR7_LN_4	MMR7_LN_4	L_4	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutS	M	73	Meilahti	MSH6	c.3980dupA	NO	yes	RNAlater	220	9.50	Ascendens	
+MMR16_LN_4	MMR16_LN_4	-	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutS	F	31	Meilahti	MSH2	säätelyalueelta exonien 2 saakka deletoitunut 	yes	yes	RNAlater	120	9.40	Ascendens	
+MMR23_LN	MMR23_LN	L	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutL	M	44	Meilahti	MLH1	c.1732-2941_1896+432del p.Pro579_Glu633del	NO	yes	RNAlater	150	9.60	Ascendens	
+MMR36_LN_4	MMR36_LN_4	-	Gut	Gut_Ade	LS_gut	LS_gut_Ade	LS_gut_levis	LS_gut_MutL	F	50	Meilahti	MLH1	c.1732-2941_1896+432del p.Pro579_Glu633del	NO	yes	RNAlater	67.6	9.50	Ascendens	
+ME20N1	ME20N1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	M	35	Meilahti	MSH2	c.1777C>T	NO	NO	N2	265	9.00	transversum	"control, sample included in the pilot study!"
+ME37N1	ME37N1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	50	Meilahti	MLH1	c.454-1G>A	NO	NO	N2	139	6.70	caecum	control
+ME41N1	ME41N1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	34	Meilahti	MLH1	c.320T>G	NO	NO	N2	196	7.40	transversum	"control, sample included in the pilot study!"
+ME50N1	ME50N1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	M	35	Meilahti	MLH1	c.1732-2941_1896+432del	NO	NO	N2	274	7.30	caecum	control
+ME61N1	ME61N1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	M	32	Meilahti	MSH2	c.1737dupA	NO	NO	N2	530	8.50	transversum	"control, sample included in the pilot study!"
+ME72N1	ME72N1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	34	Meilahti	MLH1	c.1732-2941_1896+432del	NO	NO	N2	369	7.60	transversum	"control, sample included in the pilot study!"
+ME99N1	ME99N1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	37	Meilahti	MLH1	c.1732-2941_1896+432del	NO	NO	N2	201	7.90	transversum	"control, sample included in the pilot study!"
+ME100N1	ME100N1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	M	55	Meilahti	MLH1	c.1732-2941_1896+432del	NO	NO	N2	321	7.00	caecum	control
+ME105N1	ME105N1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	43	Meilahti	MLH1	c.454-1G>A	NO	NO	N2	387	7.00	transversum	"control, sample included in the pilot study!"
+MMR13_N_1	MMR13_N_1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	37	Meilahti	MLH1	c.1732-2941_1896+432del p.Pro579_Glu633del	NO	NO	RNAlater	220	9.5	caecum	control
+MMR43_N_1	MMR43_N_1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	M	59	Meilahti	MLH1	c.1732-2941_1896+432del p.Pro579_Glu633del	NO	NO	RNAlater	172	9.6	caecum	control
+MMR48_N_1	MMR48_N_1	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	M	37	Meilahti	MLH1	MLH1 EX. 4 c.346A>C p.Thr116Pro 	NO	NO	RNAlater	117	9.9	caecum	control
+MMR612	MMR612	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	49	Jyvaskyla	MLH1	MLH1 ex 16 nucleotide change:3.5 kb genomic deleti	NO	NO	RNAlater	272	9.3	Ascendens	control
+MMR658	MMR658	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	51	Jyvaskyla	MLH1	MLH1 ex 4 codon 107	NO	NO	RNAlater	181	9.4	Ascendens	control
+MMR868	MMR868	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	60	Jyvaskyla	MLH1	MLH1 ex 16 nucleotide change:3.5 kb genomic deleti	NO	NO	RNAlater	113	9.5	Ascendens	control
+MMR1002	MMR1002	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	42	Jyvaskyla	MLH1	MLH1 ex 3 codon 70 del AGAA at nucleotide 210	NO	NO	RNAlater	364	9.2	Ascendens	control
+MMR1101	MMR1101	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	76	Jyvaskyla	MLH1	MLH1 ex 6 c.454_1G>A	NO	NO	RNAlater	84	9.6	Ascendens	control
+MMR1102	MMR1102	-	Gut	Gut_CTRL	LS_gut	LS_gut_CTRL	LS_gut_CTRL	Null	F	50	Jyvaskyla	MLH1	MLH1 ex 6 c.454_1G>A	NO	NO	RNAlater	86	9.3	Ascendens	control
+ME21P1	ME21P1	"Np1, III"	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade gravis	Null	M	34	Meilahti	MLH1	c.320T>G	-	-	N2	87	7.60	transversum	adenoma tubulare dyspl.gravis (huom. Caecumissa carcinoma)
+ME23P1	ME23P1	"N1, I"	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade levis	Null	M	57	Meilahti	MSH2	c.1667_1671delGACTT	-	-	N2	315	8.30	Ascendens	adenoma tubulare
+ME25T	ME25T	"Np1, II"	Tumor	Carcinoma	Tumor	LS_Tumor_Cars	LS_Tumor_Cars	Null	M	51	Meilahti	MLH1	c.1732-2941_1896+432del	-	-	N2	883	6.40	Ascendens	carcinoma
+ME25P1	ME25P1	"Np1, II"	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade gravis	Null	M	51	Meilahti	MLH1	c.1732-2941_1896+432del	-	-	N2	402	7.00	Ascendens	adenoma tubulare dyspl.gravis
+ME56kohouma	ME56kohouma	"N, I"	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade levis	Null	M	62	Meilahti	MSH6	c.3306delT	-	-	N2	775	7.30	Ascendens	adenoma tubulare 
+ME73P1-II	ME73P1-II	"N1, I, 1"	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade levis	Null	M	56	Meilahti	MLH1	c.1732-2941_1896+432del	-	-	N2	1290	6.50	caecum	adenoma tubulare 
+ME73colonT	ME73colonT	"N1, I, 2"	Tumor	Carcinoma	Tumor	LS_Tumor_Cars	LS_Tumor_Cars	Null	M	58	Meilahti	MLH1	c.1732-2941_1896+432del	-	-	N2	3340	7.80	caecum	carcinoma
+ME76P1	ME76P1	"N1, III"	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade gravis	Null	M	59	Meilahti	MLH1	c.1732-2941_1896+432del	-	-	N2	660	9.40	transversum	adenoma tubulare dyspl.gravis
+ME83C1	ME83C1	"N1, III"	Tumor	Carcinoma	Tumor	LS_Tumor_Cars	LS_Tumor_Cars	Null	F	74	Meilahti	MSH2	c.696_697delTT	-	-	N2	175	7.60	Fl. Lien	carcinoma
+ME87P	ME87P	"N1, III"	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade levis	Null	M	47	Meilahti	MLH1	c.454-1G>A	-	-	N2	373	6.30	Ascendens	adenoma tubulare
+ME89colonCA	ME89colonCA	"colon N, II"	Tumor	Carcinoma	Tumor	LS_Tumor_Cars	LS_Tumor_Cars	Null	F	52	Meilahti	MLH1	c.1732-2941_1896+432del	-	-	N2	3740	9.80	Ascendens	carcinoma
+ME89P1	ME89P1	"N1, I"	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade gravis	Null	F	52	Meilahti	MLH1	c.1732-2941_1896+432del	-	-	N2	201	8.00	Caecum	adenoma tubulare dyspl.gravis
+ME104P1	ME104P1	"NP1, II"	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade gravis	Null	M	75	Meilahti	MLH1	c.1732-2941_1896+432del	-	-	N2	570	7.1	Fl. Hepatica	adenoma tubulare dyspl.gravis
+MMR23_L	MMR23_L	MMR23_LN	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade levis	Null	M	44	Meilahti	MLH1	MLH1 c.1732-2941_1896+432del p.Pro579_Glu633del	-	-	RNAlater	216	9.20	Ascendens	adenoma serratum
+MMR42_L_2	MMR42_L_2	MMR42_LN_2	Tumor	Carcinoma	Tumor	LS_Tumor_Cars	LS_Tumor_Cars	Null	M	46	Meilahti	MLH1	MLH1 c.678+8G>T	-	-	RNAlater	198	9.50	transversum	carcinoma
+MMR7_L_4	MMR7_L_4	MMR7_LN_4	Tumor	Adenoma	Tumor	LS_Tumor_Ade	LS_Tumor_Ade levis	Null	M	73	Meilahti	MSH6	MSH6 c.3980dupA	-	-	RNAlater	40.8	9.30	Ascendens	adenoma serratum DD tubular
+J9_LN_1	J9LN_1	J9_L_1	Gut	Gut_Cars	CTRL_gut	CTRL_gut_Cars	CTRL_gut_Cars	Null	M	83	Jorvi	-	-	yes	yes	RNAlater	29.5	9.8	caecum	
+J11_LN_1	J11LN_1	J11_L_1	Gut	Gut_Cars	CTRL_gut	CTRL_gut_Cars	CTRL_gut_Cars	Null	F	75	Jorvi	-	-	yes	yes	RNAlater	144	9.8	caecum	
+J23_N_2	J23N_2	NA	Gut	Gut_Cars	CTRL_gut	CTRL_gut_Cars	CTRL_gut_Cars	Null	F	79	Jorvi	-	-	yes	no	RNAlater	100	9.5	transversum	
+J2N_2	J2N_2	J2_L_2	Gut	Gut_Ade	CTRL_gut	CTRL_gut_Ade	CTRL_gut_Ade	Null	F	64	Jorvi	-	-	no	yes	RNAlater	164	9.4	transversum	
+J5N_1	J5N_1	NA	Gut	Gut_Ade	CTRL_gut	CTRL_gut_Ade	CTRL_gut_Ade	Null	F	45	Jorvi	-	-	no	yes	RNAlater	248	9.6	Caecum	
+J7LN_1	J7LN_1	J7_L_1	Gut	Gut_Ade	CTRL_gut	CTRL_gut_Ade	CTRL_gut_Ade	Null	F	62	Jorvi	-	-	no	yes	RNAlater	129	9.7	Caecum	
+J16LN_2	J16LN_2	NA	Gut	Gut_Ade	CTRL_gut	CTRL_gut_Ade	CTRL_gut_Ade	Null	M	54	Jorvi	-	-	no	yes	RNAlater	86.7	9.6	Transversum	
+J22N_1	J22N_1	J22_L_1	Gut	Gut_Ade	CTRL_gut	CTRL_gut_Ade	CTRL_gut_Ade	Null	M	84	Jorvi	-	-	no	yes	RNAlater	324	9.4	Caecum	
+J27N_2	J27N_2	J27_L	Gut	Gut_Ade	CTRL_gut	CTRL_gut_Ade	CTRL_gut_Ade	Null	M	71	Jorvi	-	-	no	yes	RNAlater	109	9.4	transversum	
+J28N_2	J28N_2	J28_L	Gut	Gut_Ade	CTRL_gut	CTRL_gut_Ade	CTRL_gut_Ade	Null	M	64	Jorvi	-	-	no	yes	RNAlater	232	8.8	transversum	
+J46N_1	J46N_1	NA	Gut	Gut_Ade	CTRL_gut	CTRL_gut_Ade	CTRL_gut_Ade	Null	F	73	Jorvi	-	-	no	yes	RNAlater	186	9.5	Caecum	
+J1N_1	J1N_1	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	F	53	Jorvi	-	-	no	no	RNAlater	268	9.7	caecum	control
+J3N_1	J3N_1	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	F	70	Jorvi	-	-	no	no	RNAlater	244	9.4	caecum	control
+J8N_2	J8N_2	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	M	51	Jorvi	-	-	no	no	RNAlater	204	9.5	transversum	control
+J14N_1	J14N_1	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	F	87	Jorvi	-	-	no	no	RNAlater	400	9.7	caecum	control
+J25N_1	J25N_1	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	F	43	Jorvi	-	-	no	no	RNAlater	388	9.7	caecum	control
+J26N_2	J26N_2	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	M	66	Jorvi	-	-	no	no	RNAlater	204	9.7	transversum	control
+J30N_2	J30N_2	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	M	32	Jorvi	-	-	no	no	RNAlater	212	8.9	transversum	control
+J35N_1	J35N_1	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	F	35	Jorvi	-	-	no	no	RNAlater	105	9.3	caecum	control
+J41N_2	J41N_2	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	F	58	Jorvi	-	-	no	no	RNAlater	120	9.8	transversum	control
+J42N_2	J42N_2	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	F	55	Jorvi	-	-	no	no	RNAlater	174	9.6	transversum	control
+J44N_1	J44N_1	-	Gut	Gut_CTRL	CTRL_gut	CTRL_gut_CTRL	CTRL_gut_CTRL	Null	F	73	Jorvi	-	-	no	no	RNAlater	320	9.3	caecum	control
+J2L_2	J2L_2	J2_N_2	Tumor	Adenoma	Tumor	CTRL_Tumor_Ade	CTRL_Tumor_Ade	Null	F	64	Jorvi	-	-	-	-	RNAlater	164	9.5	Flex hepatica	adenoma serratum
+J7L_1	J7L_1	J7_LN_1	Tumor	Adenoma	Tumor	CTRL_Tumor_Ade	CTRL_Tumor_Ade	Null	F	62	Jorvi	-	-	-	-	RNAlater	252	9.4	Caecum	adenoma serratum
+J9L_1	J9L_1	J9_LN_1	Tumor	Carcinoma	Tumor	CTRL_Tumor_Cars	CTRL_Tumor_Cars	Null	M	83	Jorvi	-	-	-	-	RNAlater	164	9.3	Caecum	carcinoma
+J11L_1	J11L_1	J11_LN_1	Tumor	Carcinoma	Tumor	CTRL_Tumor_Cars	CTRL_Tumor_Cars	Null	F	75	Jorvi	-	-	-	-	RNAlater	304	9.9	Caecum	carcinoma
+J22L_1	J22L_1	J22_N_1	Tumor	Adenoma	Tumor	CTRL_Tumor_Ade	CTRL_Tumor_Ade	Null	M	84	Jorvi	-	-	-	-	RNAlater	83.2	9.6	Caecum	adenoma tubulovillosum
+J27L	J27L	J27_N_2	Tumor	Adenoma	Tumor	CTRL_Tumor_Ade	CTRL_Tumor_Ade	Null	M	71	Jorvi	-	-	-	-	RNAlater	20.9	8.7	Flex hepatica	adenoma tubulovillosum
+J28L	J28L	J28_N_2	Tumor	Adenoma	Tumor	CTRL_Tumor_Ade	CTRL_Tumor_Ade	Null	M	64	Jorvi	-	-	-	-	RNAlater	35.8	9	Transversum	adenoma serratum
