@@ -1,0 +1,147 @@
+---
+title: "Tasks"
+author: "irfan"
+date: "2/10/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Step 1: Read the datasets to R
+
+```{r , include=TRUE}
+
+getwd()
+setwd("/Users/Irfan/Downloads/Worker_R_test/")
+library(dplyr)
+library(stringr)
+file1 = "SampleTypeData.txt"
+sampleTypeData = read.csv(file1, header = TRUE, sep = "\t", dec = ".")
+dim(sampleTypeData)
+
+file2 = "PairData_Trimmo_ENSEMBL_HTSeq_Edited.table"
+PairData = read.csv(file2, header = TRUE, sep = "\t", dec = ".")
+dim(PairData)
+
+
+```
+
+
+
+## Step 2: Select relevant data columns and data rows
+
+
+```{r , include=TRUE}
+
+row.names(PairData) <- PairData$DB_ID
+PairData_remove2col <- PairData[, -c(1:2)] # delete columns 1,2
+dim(PairData_remove2col)
+
+n<-dim(PairData_remove2col)[1]
+PairData_remove2col4rows<-PairData_remove2col[1:(n-4),] # delete last 4 rows
+dim(PairData_remove2col4rows)
+
+last4rowsPairData <- tail(PairData, n=4)
+row.names(last4rowsPairData) # control data row names
+
+
+```
+
+
+## Step 3: Clean the column names from data matrix
+
+
+```{r , include=TRUE}
+
+PairData_remove2col4rows_cleanColumns  <- PairData_remove2col4rows %>%
+                                          rename_all(~ str_remove(., "\\_S.*"))
+
+names(PairData_remove2col4rows_cleanColumns) <- gsub(x = names(PairData_remove2col4rows_cleanColumns), pattern = "\\.", replacement = "-")  
+
+
+```
+
+
+## Step 4: Reorder the sample types data
+
+```{r , include=TRUE}
+
+Ordered_sampleTypeData <- sampleTypeData[ order(match(sampleTypeData$Sample.ID.Corrected, colnames(PairData_remove2col4rows_cleanColumns))), ]
+dim(Ordered_sampleTypeData)
+row.names(Ordered_sampleTypeData) <- Ordered_sampleTypeData$Sample.ID.Corrected
+
+
+```
+## Step 5,6,7,8,9 
+```{r , include=TRUE}
+## Step 5: Load data to DESeq2 object 
+
+library(DESeq2)
+
+dds <- DESeqDataSetFromMatrix(countData=PairData_remove2col4rows_cleanColumns, 
+                              colData=Ordered_sampleTypeData[, c(4:8,15)], 
+                              design= ~ Sample.type.3, tidy = FALSE)
+
+dds
+
+featureData <- data.frame(gene=rownames(PairData_remove2col4rows_cleanColumns))
+mcols(dds) <- DataFrame(mcols(dds), featureData)
+mcols(dds)
+
+## Step 6: Relevel the design
+
+dds$condition <- relevel(dds$Sample.type.3, ref = "CTRL_gut_CTRL")
+
+### Step 7: Analyze Differential expression of genes
+
+dds <- DESeq(dds)
+dispersions
+# Regularized log transformation for clustering/heatmaps, etc
+rld <- rlogTransformation(dds)
+head(assay(rld))
+hist(assay(rld))
+resultsNames(dds)
+
+
+library(RColorBrewer)
+(mycols <- brewer.pal(8, "Dark2")[1:length(unique(dds$condition))])
+
+# Sample distance heatmap
+sampleDists <- as.matrix(dist(t(assay(rld))))
+library(gplots)
+heatmap.2(as.matrix(sampleDists), key=F, trace="none",
+          col=colorpanel(100, "black", "white"),
+          ColSideColors=mycols[dds$condition], RowSideColors=mycols[dds$condition],
+          margin=c(10, 10), main="Sample Distance Matrix")
+
+DESeq2::plotPCA(rld, intgroup="condition")
+
+### Step 8: Extract results from DESeq2 Object
+
+# Get differential expression results
+res <- results(dds)
+table(res$padj<0.05)
+## Order by adjusted p-value
+res <- res[order(res$padj), ]
+plotMA(res, ylim=c(-2,2))
+
+# Gene clustering
+library( "genefilter" )
+topVarGenes <- head( order( rowVars( assay(rld) ), decreasing=TRUE ), 35 )
+heatmap.2( assay(rld)[ topVarGenes, ], scale="row",
+           trace="none", dendrogram="column",
+           col = colorRampPalette( rev(brewer.pal(9, "RdBu")) )(255))
+
+## Merge with normalized count data
+resdata <- merge(as.data.frame(res), as.data.frame(counts(dds, normalized=TRUE)), by="row.names", sort=FALSE)
+names(resdata)[1] <- "Gene"
+head(resdata)
+
+### Step 9: Extract the overall view of the results
+
+output <- as.data.frame(res) 
+summary(output)
+
+
+```
+
